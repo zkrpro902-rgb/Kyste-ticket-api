@@ -6,7 +6,7 @@ from datetime import datetime
 # ═══════════════════════════════════════════
 #  CONFIG
 # ═══════════════════════════════════════════
-API_KEY  = "MON_SECRET_API"   # même valeur dans bot.py
+API_KEY  = "MonBotKyste_2024_aBc9xZ"   # même valeur dans bot.py
 DB_PATH  = "kyste.db"
 PORT     = int(os.environ.get("PORT", 5000))
 
