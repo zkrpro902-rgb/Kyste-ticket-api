@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: kyste-tickets-api
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn api:app
+    envVars:
+      - key: PORT
+        value: 5000
